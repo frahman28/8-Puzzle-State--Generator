@@ -13,8 +13,7 @@ import java.io.File;
 public class Ai {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Stack<char[]> stack_S1 = new Stack<char[]>(); //initialising stack for state 1 inputted
+		Stack<char[]> stack_S1 = new Stack<char[]>(); // Initialising stack for state 1 inputted
 		Stack<char[]> stack_S2 = new Stack<char[]>(); //initialising stack for state 2 inputted
 		Set<String> visited_S1 = new HashSet<String>(); //initialising visited states set for state 1 inputted
 		Set<String> visited_S2 = new HashSet<String>(); //initialising visited states set for state 2 inputted
