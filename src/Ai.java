@@ -15,7 +15,7 @@ public class Ai {
 	public static void main(String[] args) {
 		Stack<char[]> stack_S1 = new Stack<char[]>(); // Initialising stack for state 1 
 		Stack<char[]> stack_S2 = new Stack<char[]>(); // Initialising stack for state 2 
-		Set<String> visited_S1 = new HashSet<String>(); //initialising visited states set for state 1 inputted
+		Set<String> visited_S1 = new HashSet<String>(); // Initialising visited states set for state 1 inputted
 		Set<String> visited_S2 = new HashSet<String>(); //initialising visited states set for state 2 inputted
 		Set<String> reachables_S1 = new HashSet<String>(); //initialising set storing all reachable states from state 1 inputted
 		Set<String> reachables_S2 = new HashSet<String>(); //initialising set storing all reachable states from state 2 inputted
