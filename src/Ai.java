@@ -18,7 +18,7 @@ public class Ai {
 		Set<String> visited_S1 = new HashSet<String>(); // Initialising visited states set for state 1 inputted
 		Set<String> visited_S2 = new HashSet<String>(); // Initialising visited states set for state 2 inputted
 		Set<String> reachables_S1 = new HashSet<String>(); // Initialising set storing all reachable states from state 1 inputted
-		Set<String> reachables_S2 = new HashSet<String>(); //initialising set storing all reachable states from state 2 inputted
+		Set<String> reachables_S2 = new HashSet<String>(); // Initialising set storing all reachable states from state 2 inputted
 		
 		Scanner sc = new Scanner(System.in);
 
