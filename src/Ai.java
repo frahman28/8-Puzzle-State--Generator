@@ -22,7 +22,7 @@ public class Ai {
 		
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Enter contents of puzzle S1 in order using a space to represent the blank: "); //prompting user input for state S1
+		System.out.print("Enter contents of puzzle S1 in order using a space to represent the blank: "); // Prompting user input for state S1
 		char[] state1 = sc.nextLine().toCharArray(); //setting user input as S1 array
 		System.out.print("Enter contents of puzzle S2 in order using a space to represent the blank: "); //prompting user input for state S2
 		char[] state2 = sc.nextLine().toCharArray(); //setting user input as S2 array
