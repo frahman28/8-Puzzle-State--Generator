@@ -23,14 +23,14 @@ public class Ai {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Enter contents of puzzle S1 in order using a space to represent the blank: "); // Prompting user input for state S1
-		char[] state1 = sc.nextLine().toCharArray(); //setting user input as S1 array
-		System.out.print("Enter contents of puzzle S2 in order using a space to represent the blank: "); //prompting user input for state S2
-		char[] state2 = sc.nextLine().toCharArray(); //setting user input as S2 array
+		char[] state1 = sc.nextLine().toCharArray(); // Setting user input as S1 array
+		System.out.print("Enter contents of puzzle S2 in order using a space to represent the blank: "); // Prompting user input for state S2
+		char[] state2 = sc.nextLine().toCharArray(); // Setting user input as S2 array
 		
 		sc.close();
 		
-		stack_S1.push(state1); //push state 1 to front of it's stack
-		stack_S2.push(state2); //push state 2 to front of it's stack
+		stack_S1.push(state1); // Push state 1 to front of it's stack
+		stack_S2.push(state2); // Push state 2 to front of it's stack
 		
 		while (stack_S1.size() > 0 && stack_S2.size() > 0) { //end when stacks are empty, when all possible states have been visited
 			System.out.println(stack_S1.size());
