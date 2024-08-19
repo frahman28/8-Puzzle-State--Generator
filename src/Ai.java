@@ -32,7 +32,7 @@ public class Ai {
 		stack_S1.push(state1); // Push state 1 to front of it's stack
 		stack_S2.push(state2); // Push state 2 to front of it's stack
 		
-		while (stack_S1.size() > 0 && stack_S2.size() > 0) { //end when stacks are empty, when all possible states have been visited
+		while (stack_S1.size() > 0 && stack_S2.size() > 0) { // End when stacks are empty, when all possible states have been visited
 			System.out.println(stack_S1.size());
 			char[] S1 = stack_S1.peek(); //set the state being expanded to the state at the top of stack1, following DFS traversal
 			char[] S2 = stack_S2.peek(); //set the state being expanded to the state at the top of the stack, following DFS traversal
