@@ -36,7 +36,7 @@ public class Ai {
 			System.out.println(stack_S1.size());
 			char[] S1 = stack_S1.peek(); // Set the state being expanded to the state at the top of stack1, following DFS traversal
 			char[] S2 = stack_S2.peek(); // Set the state being expanded to the state at the top of the stack, following DFS traversal
-			stack_S1.pop(); //pop state at the top of stack 1 so it is not visited again
+			stack_S1.pop(); // Pop state at the top of stack 1 so it is not visited again
 			stack_S2.pop(); //pop state at the top of stack 2 so it is not visited again
 			visited_S1.add(Arrays.toString(S1)); //add state 1 being expanded/visited to visited set for state 1
 			visited_S2.add(Arrays.toString(S2)); //add state 2 being expanded/visited to visited set for state 2
