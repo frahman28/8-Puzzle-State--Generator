@@ -37,12 +37,12 @@ public class Ai {
 			char[] S1 = stack_S1.peek(); // Set the state being expanded to the state at the top of stack1, following DFS traversal
 			char[] S2 = stack_S2.peek(); // Set the state being expanded to the state at the top of the stack, following DFS traversal
 			stack_S1.pop(); // Pop state at the top of stack 1 so it is not visited again
-			stack_S2.pop(); //pop state at the top of stack 2 so it is not visited again
-			visited_S1.add(Arrays.toString(S1)); //add state 1 being expanded/visited to visited set for state 1
-			visited_S2.add(Arrays.toString(S2)); //add state 2 being expanded/visited to visited set for state 2
+			stack_S2.pop(); // Pop state at the top of stack 2 so it is not visited again
+			visited_S1.add(Arrays.toString(S1)); // Add state 1 being expanded/visited to visited set for state 1
+			visited_S2.add(Arrays.toString(S2)); // Add state 2 being expanded/visited to visited set for state 2
 			
-			int blankPos_S1 = new String(S1).indexOf(' '); //get the index for the blank position for state 1
-			int blankPos_S2 = new String(S2).indexOf(' '); //get the index for the blank position for state 2
+			int blankPos_S1 = new String(S1).indexOf(' '); // Get the index for the blank position for state 1
+			int blankPos_S2 = new String(S2).indexOf(' '); // Get the index for the blank position for state 2
 			
 			ArrayList<String> moves_S1 = new ArrayList<String>(); //initialise arraylist to store possible moves from state 1
 			ArrayList<String> moves_S2 = new ArrayList<String>(); //initialise arraylist to store possible moves from state 2
